@@ -1,5 +1,5 @@
 directories:
-  name: weeklybiblicalencouragement
+  snap name: weeklybiblicalencouragement
   output: dist
   buildResources: build
 electronVersion: 11.2.0
