@@ -1,5 +1,6 @@
 name: weeklybiblicalencouragementdirectories:
-description: This app’s mission is to encourage the viewer to draw closer to God through weekly reading, inspirational verses, songs, Images and messages
+description:|
+This app’s mission is to encourage the viewer to draw closer to God through weekly reading, inspirational verses, songs, Images and messages
 directories:
   output: dist
   buildResources: build
