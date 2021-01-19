@@ -9,7 +9,6 @@ base: core18
 
 parts:
   weekly-biblical-encouragement:
-    plugin: dump
     plugin: nodejs
     source: https://github.com/casmedlin/wbelinux/releases/download/1.1.0/Weekly-Biblical-Encouragement-1.1.0-arm64.tar.gz
 
