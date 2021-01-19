@@ -1,6 +1,17 @@
-name: weeklybiblicalencouragementdirectories:
-description: This app’s mission is to encourage the viewer to draw closer to God through weekly reading, inspirational verses, songs, Images and messages
-directories:
-  output: dist
-  buildResources: build
-electronVersion: 11.2.0
+name: weekly-biblical-encouragement
+summary: weekly-biblical-encouragement
+version: 1.1.1
+description: |
+  This app’s mission is to encourage the viewer to draw closer 
+  to God through weekly reading, inspirational verses, songs, Images and messages
+confinement: classic
+base: core18
+
+parts:
+  weekly-biblical-encouragement:
+    plugin: nodejs
+    source: https://github.com/casmedlin/wbelinux/releases/download/1.1.0/Weekly-Biblical-Encouragement-1.1.0-arm64.tar.gz
+
+apps:
+  weekly-biblical-encouragement:
+    command: weekly-biblical-encouragement
