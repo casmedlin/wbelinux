@@ -1,0 +1,19 @@
+{
+  "name": "Weekly-Biblical-Encouragement",
+  "email": "casmedlin@wbem.org",
+  "version": "1.1.0",
+  "description": "This app’s mission is to encourage the viewer to draw closer to God through weekly reading, inspirational verses, songs, Images and messages",
+  "main": "index.js",
+  "scripts": {
+    "build:package": "electron-packager .  Weekly-Biblical-Encouragement --overwrite --asar=true --platform=linux --arch=arm64 --icon=src/assets/app-linux512x512.png --prune=true --out=release-builds",
+    "build:snap": "electron-installer-snap --src=release-builds/Weekly-Biblical-Encouragement-linux-arm64",
+    "dist": "electron-builder --linux freebsd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "electron-builder": "^22.9.1"
+  }
+}
